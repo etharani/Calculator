@@ -145,6 +145,7 @@
             this.sub.TabIndex = 17;
             this.sub.Text = "-";
             this.sub.UseVisualStyleBackColor = false;
+            this.sub.Click += new System.EventHandler(this.sub_Click);
             // 
             // mul
             // 
@@ -157,6 +158,7 @@
             this.mul.Text = "*";
             this.mul.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.mul.UseVisualStyleBackColor = false;
+            this.mul.Click += new System.EventHandler(this.mul_Click);
             // 
             // div
             // 
@@ -168,6 +170,7 @@
             this.div.TabIndex = 19;
             this.div.Text = "/";
             this.div.UseVisualStyleBackColor = false;
+            this.div.Click += new System.EventHandler(this.div_Click);
             // 
             // rem
             // 
@@ -179,6 +182,7 @@
             this.rem.TabIndex = 20;
             this.rem.Text = "%";
             this.rem.UseVisualStyleBackColor = false;
+            this.rem.Click += new System.EventHandler(this.rem_Click);
             // 
             // clear
             // 
@@ -190,6 +194,7 @@
             this.clear.TabIndex = 21;
             this.clear.Text = "Clear";
             this.clear.UseVisualStyleBackColor = false;
+            this.clear.Click += new System.EventHandler(this.clear_Click);
             // 
             // Form1
             // 
