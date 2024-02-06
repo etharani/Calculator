@@ -54,6 +54,7 @@
             this.sum.TabIndex = 15;
             this.sum.Text = "+";
             this.sum.UseVisualStyleBackColor = false;
+            this.sum.Click += new System.EventHandler(this.sum_Click);
             // 
             // output
             // 
